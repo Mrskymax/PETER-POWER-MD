@@ -1,0 +1,120 @@
+{
+  "name": "PETER-POWER-MD@1.0.1",
+  "description": "I am PETER-POWER-MD, your friendly neighborhood, built in NodeJs for fun",
+  "logo": "",
+  "keywords": ["whatsappbot", "peterpowerMd", "peter power Md bot", "PETER-POWER-MD", "PeterPowerMdWhatsAppBot", "PeterPowerWaBot", "PeterPowerMD", "PETER-POWER-MD-WhatsappBot", "multi device"],
+  "success_url": "/suhail/",
+  "app_url": "/qr/",
+  
+  "env": {
+    "OWNER_NAME": {
+      "description": "BOT OWNER NAME",    
+      "value": "PETER POWER",
+      "required" :true
+    },   
+    
+    "WELCOME": {
+      "description": "PUT 'true' OR 'false' TO ENABLE & DISABLE WELCOME ",
+      "value": "false",
+      "required" :false
+    },
+    
+    "GOODBYE": {
+      "description": "FIX 'false' OR 'true' TO ENABLE & DISABLE GOODBYE ",
+      "value": "false",
+      "required" :false
+    },
+    "BOT_NAME": {
+      "description": " NAME FOR BOT",
+      "required" :false,    
+      "value": "PETER-POWER-MD"
+    },  
+    "GURL": {
+      "description": "",
+      "required" :false,    
+      "value": ""
+    }, 
+    "TZ": {
+      "description": "PUT TIME_ZONE ACCORDING TO YOUR LOCATION",
+      "required" :false,    
+      "value": "Africa/Dar_es_Salaam"
+    },  
+    "FLUSH": {
+      "description": " MAKE IT 'TRUE' IF BOT CONNECTED BUT NOT RESPONED (AFTER DEPLOYEMENT!)",
+      "required" :false,    
+      "value": "false"
+    },     
+    "READ_COMMAND": {
+      "description": " PETER-POWER BLUE TICKS COMMANDS IF THIS IS SET 'true'",
+      "required" :false,    
+      "value": "false"
+    },
+    "WARN_COUNT": {
+      "description": "WARN COUNT FOR USERS TO KICK/BLOCK WHEN WARN LIMIT EXCEEDED!",
+      "required" :false,    
+      "value": "3"
+    },  
+    "AUTO_SAVE_STATUS": {
+      "description": " AUTO SAVE WHATSAPP STATUS", 
+      "required" :false,   
+      "value": "false"
+    }, 
+    "HEROKU_API_KEY": {
+      "description": "PUT YOUR HEROKU API KEY HERE",
+      "value": "",
+      "required" :true 
+    },   
+    "HEROKU_APP_NAME": {
+      "description": "PUT YOUR HEROKU APP NAME HERE-ALL CHARACTERS MUST BE IN LOWERCASE",
+      "value": "",
+    "required" :true
+    }, 
+    "WAPRESENCE": {
+      "description": "FILL THE VALUE: 'unavailable'(FOR NOTHING) | 'available'(FOR ALWAYSONLINE) | 'composing'(FOR TYPING) | 'recording' | 'PAUSED' ",
+      "required" :false,
+      "value": "composing"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "FILL THE VALUE TRUE IF YOU WANT BOT TO VIEW YOUR CONTACT STATUS.",
+      "required" :false,
+      "value": "true"
+    }, 
+    "MSGS_IN_LOG": {
+      "description": "FILL THE VALUE 'true' IF YOU WANT TO SEE MESSAGES IN LOGS.",
+      "required" :false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "FILL THE VALUE TRUE IF YOU WANT BOT TO READ ALL MESSAGES.",
+      "required" :false,
+      "value": "false"
+    },
+    "DISABLE_PM": {
+      "description": "MAKE IT 'false' IF YOU WANNA RUN BOT IN YOUR PM (IF MODE IS PUBLIC)",
+      "value": "true",
+      "required" :false
+    },
+    "PREFIX": {
+      "description": "ENTER YOUR DESIRED PREFIX FOR BOT. YOU CAN SET `ALL |null | . | .!*`",
+      "value": "."
+    },
+    "OWNER_NUMBER": {
+      "description": "THE PHONE NUMBERS OF THE USERS WHO YOU WANT TO BE ADMIN FOR THE BOT (SHOULD BE IN INTERNATIONAL FORMAT WITHOUT + AND MULTIPLE NUMBERS MUST BE SEPARATED BY A COMMA ",")",
+      "value": "255715654328,255677780801"
+    },
+    "SESSION_ID": {
+      "description": "PUT YOUR SESSION_ID HERE.",
+      "value": ""
+    },
+    "ANTI_PHISHING": {
+      "description": "ENABLE OR DISABLE THE ANTI-PHISHING SYSTEM (shieldon/shieldoff)",
+      "value": "false",
+      "required": false
+    }
+  }, 
+  "addons": [{ "plan": "heroku-postgresql:basic" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+  ]
+}
