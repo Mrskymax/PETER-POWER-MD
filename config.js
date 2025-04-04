@@ -2,8 +2,8 @@ const fs = require('fs-extra')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
-global.audio= "" ;  
-global.video= "" ;
+global.audio= "./media/audio/default.mp3" ;  
+global.video= "./media/video/default.mp4" ;
 global.port = process.env.PORT
 global.appUrl = process.env.APP_URL || ""                       // weka URL ya programu yako hapa,
 global.email = "ptechtanzania015@gmail.com" // hakuna haja
@@ -20,7 +20,7 @@ global.gurl  = process.env.GURL  || "https://wa.me/255677780801";
 global.website = process.env.GURL || "https://wa.me/255715654328" ; 
 global.THUMB_IMAGE = process.env.IMAGE || "" ; // Weka nembo ya picha
 
-global.devs = "2349121881343" // Mawasiliano ya Developer
+global.devs = "255677780801" // Mawasiliano ya Developer
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/\s+/g, '') : "255677780801";
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/\s+/g, '') : "255&15654328";
 
@@ -35,7 +35,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false"; // zuia bot katika magrupu ikiwa mode ni public
 
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false" // "true" kuona ujumbe, "log" kuona logi, "false" kuficha ujumbe
-global.userImages = process.env.USER_IMAGES || "" // weka picha hapa
+global.userImages = process.env.USER_IMAGES || "https://od.lk/s/NzhfNjcwNzYwNzBf/pk.jpg" // weka picha hapa
 global.waPresence = process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 //========================= [ KUSOMA OTOMATIKI UJUMBE & AMRI ] =========================\\
