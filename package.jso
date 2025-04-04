@@ -1,0 +1,56 @@
+{
+  "name": "PETER-POWER-MD",
+  "version": "1.0.0",
+  "description": "Multi-device WhatsApp bot powered by @whiskeysockets/Baileys",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "pm2 start . --attach --name PETER-POWER || node index.js",
+    "stop": "pm2 stop PETER-POWER",
+    "restart": "pm2 restart PETER-POWER",
+    "install": "npm install",
+    "postinstall": "npx puppeteer@latest install --y"
+  },
+  "author": "Mrskymax",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.3.0",
+    "google-tts-api": "^2.0.2",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.2.1",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.0",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "simple-git": "^3.15.1",
+    "translatte": "^3.0.1",
+    "wa-sticker-formatter": "^4.3.2",
+    "youtubei.js": "^7.0.0",
+    "puppeteer": "latest"
+  },
+  "directories": {
+    "lib": "lib",
+    "commands": "bot/commands",
+    "config": "config",
+    "utils": "utils"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrskymax/PETER-POWER-MD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mrskymax/PETER-POWER-MD/issues"
+  },
+  "homepage": "https://github.com/Mrskymax/PETER-POWER-MD#readme"
+}
