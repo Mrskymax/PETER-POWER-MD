@@ -1,7 +1,7 @@
 ![PETER-POWER-MD](https://github.com/Mrskymax/gif/blob/main/919.gif)
 
 <p align="center">
-    <img alt="PETER-POWER-MD" height="300" src="   ">
+    <img alt="PETER-POWER-MD" height="300" src="https://od.lk/s/NzhfNjcwNzYwNzBf/pk.jpg">
   </a>
 </p>
 
@@ -65,7 +65,7 @@
  <details close>
 <summary>𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗢𝗥𝗦</summary>
 
-| [![PETER POWER](https://telegra.ph/file/a780e2d3991bda292235d.jpg?lenght=50width=50)](https://github.com/PeterPowerMD) |
+| [![PETER POWER](https://od.lk/s/NzhfNjcwNzYwNzBf/pk.jpg?lenght=50width=50)](https://github.com/PeterPowerMD) |
 |----|
 | [PETER POWER](https://github.com/Mrskymax) |
 |  BOT BASE , ERROR FIXES, |
