@@ -617,7 +617,7 @@ async function Draw(_0x3ab488) {
       method: "POST",
       headers: {
         "content-type": "application/json",
-        Authorization: "Bearer ",
+        Authorization: "Bearer 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",
       },
       body: JSON.stringify({
         inputs: _0x3ab488,
