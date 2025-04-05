@@ -9,7 +9,7 @@ global.appUrl = process.env.APP_URL || ""                       // weka URL ya p
 global.email = "ptechtanzania015@gmail.com" // hakuna haja
 global.location = "Africa/Tanzania." // hakuna haja
 
-global.mongodb = process.env.MONGODB_URI || ""
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ptechtanzania015:peter-power-Md@cluster0.6xa2s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 global.allowJids = process.env.ALLOW_JID || "null" 
 global.blockJids = process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
@@ -18,7 +18,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Tanzania";
 global.github = process.env.GITHUB || "https://github.com/Mrskymax/PETER-POWER-MD";
 global.gurl  = process.env.GURL  || "https://wa.me/255677780801";
 global.website = process.env.GURL || "https://wa.me/255715654328" ; 
-global.THUMB_IMAGE = process.env.IMAGE || "" ; // Weka nembo ya picha
+global.THUMB_IMAGE = process.env.IMAGE || "https://od.lk/s/NzhfNjcwNzYwNzBf/pk.jpg" ; // Weka nembo ya picha
 
 global.devs = "255677780801" // Mawasiliano ya Developer
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/\s+/g, '') : "255677780801";
