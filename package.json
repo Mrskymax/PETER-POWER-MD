@@ -1,7 +1,7 @@
 {
   "name": "PETER-POWER-MD",
   "version": "1.0.0",
-  "description": "Multi-device WhatsApp bot powered by @whiskeysockets/Baileys",
+  "description": "Multi-device WhatsApp bot powered by Baileys",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "Mrskymax",
   "license": "Apache-2.0",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.16",
+    "baileys": "^6.7.16",
     "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
     "dotenv": "^16.0.0",
