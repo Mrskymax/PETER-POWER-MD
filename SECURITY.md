@@ -14,8 +14,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a vulnerability, please report it by emailing us at **ptechtanzania015@gmail.com**. We are committed to addressing all security issues promptly. 
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+You can expect an acknowledgment of your report within 7 business days. Once the vulnerability is confirmed, we will provide regular updates on the progress and the expected resolution timeline. We greatly appreciate your efforts to help us maintain the security of our project.
