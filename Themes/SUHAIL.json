@@ -1,0 +1,51 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "Mrskymax",
+    "theme": "Peter-power",
+    "LANGUAGE": "English",
+    "LANGCODE": "en", 
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "*Believe it.\nYour bot is already up-to-date*",
+            "NEW_UPDATE": "*it's time to update the bot!*\n\n*Changes:*\n",
+            "UPDATED_LOCAL": "*Successfully Updated!*"
+        },  
+        "global": {      
+            "botName": "PETER-POWER-MD",
+            "body": "whatsapp User Bot", 
+            "greet2" : "Thanks To Mrskymax",
+            "pic1": "https://od.lk/s/NzhfNjcwNzYwNzBf/pk.jpg", 
+            "greet" : "Believe it",
+            "dotbody" : "I decided being Pirate King.",
+            "emojii" : "🍑", 
+            "promote": "Admin Role Given to Mrskymax",
+            "pmallow": "*Hii,This is Mrskymax Info\n You have been blocked for spamming.\n\n _Powered by Mrskymax | basanzietech_",
+            "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *",
+            "permited": "Hii Sir*\n\nNow You are permitted by my owner to pm now.\n\n _Powered by Mrskymax | basanzietech_", 
+            "revoked" : "*Hii Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by Mrskymax | basanzietech_",
+            "demote": "Uhh,Admin Role Taken back",
+            "antlink": "Link Detected.\n*Good Bye Rouge pirate*",
+            "session": "\n*This is your session.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by Basanzie_Tech*",
+            "mention": " Please mention My Owner",
+            "title": "PETER-POWER",
+            "footer": " Peter-power\n ",
+            "by": "Made by: Mrskymax",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm eating ramen",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "𝔻𝕌𝔻𝔼 𝕐𝕆𝕌 𝔸ℝ𝔼ℕ'𝕋 𝔸ℕ 𝔸𝔻𝕄𝕀ℕ🕷. 𝕐𝕆𝕌 𝔸ℝ𝔼 𝕁𝕌𝕊𝕋 𝔸 ℂ𝕆𝕄𝕄𝕆ℕ ℙ𝔸ℝ𝕋𝕀ℂ𝕀ℙ𝔸ℕ𝕋 𝔸ℕ𝔻 ℕ𝕆𝕋ℍ𝕀ℕ𝔾 𝕄𝕆ℝ𝔼",
+            "botAdmin": "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ʀᴏʟᴇ.❗",
+            "owner": "ℂ𝕆𝕄𝕄𝔸ℕ𝔻 ℝ𝔼𝕊𝔼ℝ𝕍𝔼𝔻 𝔽𝕆ℝ 𝕄𝕐 𝕆𝕎ℕ𝔼ℝ.🕷",
+            "group": "ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ🚫",
+            "private": "ℂ𝕆𝕄𝕄𝔸ℕ𝔻 ℝ𝔼𝕊𝔼ℝ𝕍𝔼𝔻 𝔽𝕆ℝ 𝕄𝕐 𝕆𝕎ℕ𝔼ℝ",
+            "bot": "𝔻𝕆ℕ𝕋 𝕊𝔼ℕ𝔻 𝕋ℍ𝕀𝕊 𝕀𝔽 𝕐𝕆𝕌 𝔸ℝ𝔼 ℕ𝕆𝕋 𝕄𝕐 𝕆𝕎ℕ𝔼ℝ🕷",
+            "wait": "ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ✅"
+        },
+        "error": {
+            "text": "*You may come to regret trying to manipulate me.\nNow go get this Error fixed*"
+        }
+    } 
+  }
+   
