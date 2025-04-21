@@ -7,7 +7,7 @@
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Mrskymax || node .",
       "Mrskymax ": "pm2 start . --deep-monitoring --attach --name Mrskymax || node .",
-      "start": "pm2 start . --attach --name Mrskymax",
+      "start": "node index.js",
       "stop": "pm2 stop Mrskymax",
       "heroku-postbuild": "git clone https://github.com/Mrskymax/Peter-power-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Mrskymax/Peter-power-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
@@ -47,6 +47,7 @@
       "link-preview-js": "^3.0.0",
       "moment-timezone": "^0.5.34",
       "mongoose": "^6.2.1",
+      "logomaker": "^2.0.0",
       "node-cron": "^3.0.0",
       "node-fetch": "^2.6.1",
       "node-webpmux": "^3.1.0",
@@ -79,9 +80,7 @@
    "bugs": {
       "url": "https://github.com/Mrskymax/Peter-power-Md/issues"
    },
-   "homepage": "https://github.com/Mrskymax/Peter-power-Md#readme",
-   "engines": {
-      "node": "18.x",
-      "npm": "9.x"
-   }
+   "homepage": "https://github.com/Mrskymax/Peter-power-Md#readme"
+
+
 }
