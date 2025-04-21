@@ -79,5 +79,9 @@
    "bugs": {
       "url": "https://github.com/Mrskymax/Peter-power-Md/issues"
    },
-   "homepage": "https://github.com/Mrskymax/Peter-power-Md#readme"
+   "homepage": "https://github.com/Mrskymax/Peter-power-Md#readme",
+   "engines": {
+      "node": "18.x",
+      "npm": "9.x"
+   }
 }
