@@ -43,7 +43,7 @@
 
 ✍️. ***Get Session ID (Pairing Code)***
     <br>
-<a href='https://mrsky-md-session-qwtj.onrender.com/pair/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
+<a href='https://mrsky-md-session-qvhs.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
 
 ✍️. ***Get Session ID (QR Code)***
     <br>
